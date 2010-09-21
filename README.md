@@ -20,11 +20,13 @@ Usage
 Sample script
 -------------
 
+NB! Update `service_id` and `secret` in the script with the actual tokens of your service.
+
     var FortumoSMSServer = require("fortumo").FortumoSMSServer;
 
     var options = {
-        service_id: "c4d18b86cc3bd0cccf5436b4995ba42d", // public service ID
-        secret:     "7a518954b359471d31efaa2cefdfd8d7"  // secret service token
+        service_id: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", // public service ID
+        secret:     "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"  // secret service token
     }
     
     var fortumo = new FortumoSMSServer(options);
