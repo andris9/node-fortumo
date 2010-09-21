@@ -6,7 +6,7 @@ node-fortumo
 Usage
 -----
 
-Set up the account
+#### Set up the account
 
   - Create an account at [fortumo.com](http://fortumo.com)
   - Set up a new Mobile Payments/Premium SMS API service [here](http://fortumo.ee/api/start)
@@ -17,7 +17,8 @@ Set up the account
   - install node-fortumo with
         npm install fortumo
 
-#### Sample script:
+Sample script
+-------------
 
     var FortumoSMSServer = require("fortumo").FortumoSMSServer;
 
