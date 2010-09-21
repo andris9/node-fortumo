@@ -10,7 +10,7 @@ Usage
 
   - Create an account at [fortumo.com](http://fortumo.com)
   - Set up a new Mobile Payments/Premium SMS API service [here](http://fortumo.ee/api/start)
-  - Set http://*yourserver.com*/_incoming_sms as the receiving URL and optionally charset to UTF-8 if you want to use non-latic characters
+  - Set `http://yourserver.com/_incoming_sms` as the receiving URL and optionally charset to UTF-8 if you want to use non-latin characters
   
 #### Set up the server
 
